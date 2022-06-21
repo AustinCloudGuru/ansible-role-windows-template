@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include austincloudguru.windows_template"
+      include_role:
+        name: "austincloudguru.windows_template"
